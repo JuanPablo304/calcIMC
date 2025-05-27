@@ -1,0 +1,48 @@
+body{
+    background: url(ramon-dino-mr-olympia-e1699131023342-1140x570.webp);
+}
+#card{
+    display: grid;
+    place-items: center;
+    height: 20vh;
+    margin-top: 300px;
+    background-color: rgba(255, 255, 255, 0.849);
+    padding-top: 1%;
+    padding-bottom: 14%;
+    margin-left: 42%;
+    margin-right: 42%;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    border-top-width:10px ;
+    border-top-style: solid;
+    border-color: rgb(202, 0, 0);
+    font-family: system-ui;
+    box-shadow: 0px 10px 30px black;
+}
+#form{
+    display: grid;
+    place-items: center;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(247, 217, 204);
+}
+button{
+    padding: 12px;
+    border-radius: 8px;
+    border-style: none;
+    width: 50%;
+    background-color: rgb(202, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color:cornflowerblue;
+}
+#resultado{
+    text-align: center;
+
+}
